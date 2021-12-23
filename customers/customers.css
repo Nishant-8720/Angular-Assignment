@@ -1,0 +1,45 @@
+.testimonial {
+    font-size: 1.25rem;
+    overflow: hidden;
+}
+
+.testimonial__list {
+    width: 80%;
+    margin: auto;
+}
+
+.testimonial:first-of-type {
+    margin-top: 6rem;
+}
+
+.testimonial__image-container {
+    width: 100%;
+    display: block;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+    max-width: 25rem;
+    background: var(--red-color, #fd0000);
+    overflow: hidden;
+    transform: skewX(20deg);
+
+}
+
+.testimonial__info {
+    text-align: right;
+    padding: 0.875rem;
+    display: block;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.testimonial__name {
+    margin: 0.2rem;
+    color: var(--red-color, #ff1b68);
+    font-size: 2rem;
+}
+
+.testimonial__subtitle {
+    margin: 0;
+    font-size: 1.125rem;
+    color: var(--light-gray, rgb(0, 0, 0));
+}
